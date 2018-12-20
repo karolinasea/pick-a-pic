@@ -1,0 +1,84 @@
+﻿body {background-image: linear-gradient(white, white, #e6f2ff, #cce6ff, #b3d9ff, #99ccff,  #80bfff, #66b3ff, #4da6ff, #3399ff, #1a8cff,  #0080ff, #0073e6, #0066cc, #0059b3, #003366); 
+background-repeat: repeat; 
+height: 100%;
+background-attachment: fixed;
+font-family: Sans-serif;
+}
+
+header {display: flex;
+justify-content: space-around;
+border-bottom-style : outset;
+border-right-style : outset;
+border-color : orange;
+height:50px;}
+
+nav{flex-direction: column;
+  width:15%;
+  height:100%;
+  position:fixed;
+}
+
+#menu ul {padding:0;
+margin: 0;
+list-style:none;}
+
+#menu {
+    display: flex;
+	justify-content: flex-start;
+}
+#menu li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;}
+	
+#menu ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;}
+	
+#menu a {
+    text-decoration: none;
+    display: block;
+	color: #001f4d;
+	padding: 1em;
+}
+#menu ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;}
+	
+#menu li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;}
+
+img{height:100px;} 
+
+ul {list-style-type: none;}
+
+footer {width: 100%;
+position: absolute;
+bottom:0; 
+left:0;
+}
+
+footer ul li {
+display:inline;
+margin: auto;
+padding: 2px;
+}
+
+footer small {display:inline;
+margin: auto;
+padding: 1%;
+float: right;}
+
+main {display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.alignimg {position: inline;}
+
+#logo {height:90%;}
+#cart {height:50px;}
