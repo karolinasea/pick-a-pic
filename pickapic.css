@@ -4,11 +4,30 @@ background-repeat: repeat;
 height: 100%;
 min-height:100%;
 background-attachment: fixed;
-font-family: Sans-serif;}
+font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+h1 {border: 5px solid;
+border-width: thin;
+border-radius: 8px;
+border-color : #0431B4;
+padding:2px;
+padding-left:20px;}
+
+img {height:100px;} 
+
+ul {list-style-type: none;}
+
+a {text-decoration:none;
+   color:black;}
+
+.center {text-align:center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
 header {border-bottom-style : outset;
 border-right-style : outset;
-border-radius: 10px;
+border-radius: 8px;
 border-color : #0431B4;
 height:50px;
 display: flex;
@@ -17,18 +36,18 @@ justify-content: center;}
 #logo {position: absolute;
 	top: 0.5em;
 	left: 1%;
-	height:33px;}
+	height:45px;}
 
 #account {font-size:0.8em;}
 
 #search {text-align: center;
-padding-top:0.7em;
-}
+padding-top:0.7em;}
 
 #cart {position: absolute;
 	top: 0.5em;
 	right: 1%;
 	height:45px;}
+
 
 nav ul {list-style-type: none;
   margin: 0;
@@ -39,7 +58,6 @@ nav ul {list-style-type: none;
   overflow: auto;}
 
 nav ul li a {display: block;
-  color: #000;
   padding: 8px 16px;
   text-decoration: none;}
  
@@ -48,9 +66,37 @@ nav ul li a.active {color: black;}
 nav ul li a:hover:not(.active) {color: darkblue;
   font-weight:bold;}
 
-main {margin-left: 20%;
+
+
+main {margin-left: 10%;
   padding: 1px 16px;
-  height: 1000px;}
+  height: 1000px;
+  overflow: auto;}
+
+main ul li {display: inline;}
+
+main h2 {padding-top: 10px;}
+
+main p {padding-left:38px;}
+   
+footer {bottom: 0;
+    height: 3em;
+    left: 0;
+    position: relative; 
+    width:100%;}
+
+footer ul li {
+display:inline;
+margin: auto;
+padding: 2px;}
+
+footer small {display:inline;
+margin: auto;
+padding: 1%;
+float: right;}
+
+footer a:hover {text-decoration:underline;}
+
 
 @media screen and (max-width: 900px) 
 {
@@ -66,30 +112,6 @@ main {margin-left: 0;}
 
 @media screen and (max-width: 400px) 
 {
-  ul.sidenav li a {text-align: center;
+  nav ul li a {text-align: center;
     				float: none;}
 }
-
-img{height:100px;} 
-
-ul {list-style-type: none;}
-
-footer ul li {
-display:inline;
-margin: auto;
-padding: 2px;}
-
-footer small {display:inline;
-margin: auto;
-padding: 1%;
-float: right;}
-
-footer a:hover {text-decoration:underline;}
-
-footer {padding: 20px;
-  text-align: center;}
-
-.alignimg {position: inline;}
-
-a {text-decoration:none;
-   color:black;}
