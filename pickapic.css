@@ -115,3 +115,13 @@ main {margin-left: 0;}
   nav ul li a {text-align: center;
     				float: none;}
 }
+
+nav select {display: none;}
+
+@media (max-width: 550px) 
+{
+  nav ul {display: none;}
+  nav select {display: inline-block;
+  			  padding:0.5em;}
+}
+
