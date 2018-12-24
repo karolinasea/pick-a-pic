@@ -9,33 +9,50 @@
 <body>
 
 <header> 
-<!--logo(pickapic)-->
-	<img src="" alt="logo of PickApic"/>
 
-<!--Search bar-->
-	<a href = ""><input type = "text" placeholder = "Search"></a>
-	
-<!--panier | compte |connexion-->
-	<a href = ""><img src = "" alt = "Cart" /><!--lien img de panier--></a>
-	
-	<a href = ""> Sign in </a>
+	<img src="logo.jpg" alt="logo of PickApic" id="logo"/>
 
-	<a href = ""> Create an account </a>
+<form action="">
+  <input type="text" placeholder="Search images" name="search" id="search" >
+  <button name="button" value="search"><a href=""><img src="mg.png" alt="magnifying glass"/></a></button>
+</form>
+	
+	 
+	<div id="account">
+		<a href = ""> Sign in </a><br/>
+		<a href = ""> Create an <br/>account </a>	
+	</div>	
+	<a href = ""><img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/></a>
+	
+	
 </header>
 
 <nav> 
 <!--Menu sticky-->
-	<ul>
-		<li><a href="">Homepage</a></li>
+		<ul>
+		<li><a href="" class="active">Home</a></li>
 		<li><a href="">Categories</a></li>
 		<li><a href="">New</a></li>
 		<li><a href="">Sales</a></li>
 		<li><a href="">Report</a></li>
 		<li><a href="">About us</a></li>
 		<li><a href="">Contact Us</a></li>
-	</ul>
-			
+	</ul>	
+	
+	<select> 
+    <option value="" selected="selected">Select</option> 
+    
+    <option value="/">Home</option> 
+    <option value="">Categories</option> 
+    <option value="">New</option> 
+    <option value="">Sales</option> 
+    <option value="">Report</option> 
+    <option value="">About us</option> 
+    <option value="">Contact Us</option> 
+  </select> 
+  
 </nav>
+
 
 
 <main> 
