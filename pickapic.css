@@ -23,8 +23,8 @@ a {text-decoration:none;
 .center {text-align:center;
 display: block;
   margin-left: auto;
-  margin-right: auto;}
-
+  margin-right: auto;}  
+  
 header {border-bottom-style : outset;
 border-right-style : outset;
 border-radius: 8px;
@@ -35,14 +35,24 @@ justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;}
 
+button img {height:2em;}
+			  
+button {border:none;
+		background:#fff;}
+
+#search {border-radius: 15px;
+		 width: 20em;;
+		 height:2.2em;
+		 padding:0.3em;}	
+
+header form input:hover  {background-color:#fafafa;}		
+	
 #cart {padding-left:1em;
        height:45px;
        padding-top:0;}
        
 #logo {height:60px;
 	padding-right:1px;}
-	
-#search {}
 
 #account {display:block;
 		  font-size:0.8em;
@@ -124,6 +134,10 @@ nav select {display: none;}
   nav ul {display: none;}
   nav select {display: inline-block;
   			  padding:0.1em;}
+  			  
+  header {text-align:center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
 }
-
 
