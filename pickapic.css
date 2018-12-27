@@ -156,6 +156,8 @@ main {margin-left: 0;}
   margin-right: auto;}
   
   header form img {display: flex;
-				align-items: center;}
+	  	   align-items: center;}
+header {border:none;}
+	
 }
 
