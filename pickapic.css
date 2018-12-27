@@ -67,7 +67,7 @@ header form input:hover  {background-color:#fafafa;}
 
 nav select {display: none;}
 
-.currentPage {font-weight: bold;}
+#currentPage {font-weight: bold;}
 
 nav ul {list-style-type: none;
   margin: 0;
@@ -85,9 +85,8 @@ nav ul li a:hover:not(.active) {color: darkblue;
   font-weight:bold;}
 
 main {margin-left: 10%;
-  padding: 1px 16px;
-  height: 1000px;
-  overflow: auto;}
+      padding: 1px 16px;
+      overflow: auto;}
 
 main ul li {display: inline;}
 
@@ -95,11 +94,10 @@ main h2 {padding-top: 10px;}
 
 main p {padding-left:38px;}
    
-footer {bottom: 0;
-    height: 3em;
-    left: 0;
-    position: relative; 
-    width:100%;}
+footer {height: 3em;
+       left: 0;
+       bottom: 0.1em;
+       width:100%;}
 
 footer ul li {
 display:inline;
@@ -156,8 +154,9 @@ main {margin-left: 0;}
   margin-right: auto;}
   
   header form img {display: flex;
-	  	   align-items: center;}
+				align-items: center;}
+				
 header {border:none;}
-nav ul {position: relative;}	
+nav ul {position: absolute;}
 }
 
