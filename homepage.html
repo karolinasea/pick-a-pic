@@ -9,27 +9,33 @@
 <body>
 <header> 
 
+<div>	
 	<img src="logo.jpg" alt="logo of PickApic" id="logo"/>
+</div>
 
+<div>
 <form action="">
   <input type="text" placeholder="Search images" name="search" id="search" >
   <button name="button" value="search"><a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a></button>
 </form>
-	
+</div>
 	 
-	<div id="account">
+<div>
+	<span id="account">
 		<a href = "sign_in.html"> Sign in </a><br/>
 		<a href = "create_an_account.html"> Create an <br/>account </a>	
-	</div>	
-	<a href = "empty_cart.html"><img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/></a>
-	
-	
+	</span>	
+	<a href = "empty_cart.html">
+	<img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/>
+	</a>
+</div>	
+
 </header>
 
 <nav> 
 <!--Menu sticky-->
 		<ul>
-		<li><a href="" class="active">Home</a></li>
+		<li class="currentPage"><a href="homepage.html">Home</a></li>
 		<li><a href="categories.html">Categories</a></li>
 		<li><a href="new.html">New</a></li>
 		<li><a href="sales.html">Sales</a></li>
