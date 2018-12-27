@@ -115,13 +115,13 @@ footer a:hover {text-decoration:underline;}
 
 
 @media screen and (max-width: 900px) 
-{	
- nav ul {width: 100%;
+{
+  nav ul {width: 100%;
     	  height: auto;
-          position: relative;}
+   		  position: relative;}
   	
   nav ul li a {float: left;
-	       padding: 15px;}
+			   padding: 15px;}
   
 main {margin-left: 0;}
 }
@@ -129,14 +129,12 @@ main {margin-left: 0;}
 @media screen and (max-width: 400px) 
 {
   nav ul li a {text-align: center;
-    		float: none;}
-body {font-size:180px;}
+    				float: none;}
 }
 
-@media screen (max-width: 550px) 
+@media (max-width: 550px) 
 {
-body {font-size:180px;}  
-nav ul {display: none;}
+  nav ul {display: none;}
   nav {padding-top: 0.2em;}
   nav select {display: inline-block;
   			 padding:0.1em;
