@@ -111,7 +111,7 @@ float: right;}
 
 footer a:hover {text-decoration:underline;}
 
-#sale {font-weight:bold;
+.sale {font-weight:bold;
 		color: red;}
 
 @media screen and (max-width: 900px) 
