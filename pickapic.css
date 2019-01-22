@@ -110,9 +110,6 @@ main ul li {display: inline;}
 main h2 {padding-top: 10px;}
 
 main p {padding-left:38px;}
-   
-/*footer {margin-left: 10%;
-      padding: 1px 16px;}*/
 
 footer ul li {
 display:inline;
@@ -127,7 +124,7 @@ float: right;}
 footer a:hover {text-decoration:underline;}
 
 .sale {font-weight:bold;
-		color: red;}
+	color: red;}
 
 @media screen and (max-width: 900px) 
 {
