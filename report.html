@@ -7,33 +7,38 @@
 </head>
 
 <body>
+<div class="page-wrap">
 <header> 
 
-	<img src="logo.jpg" alt="logo of PickApic" id="logo"/>
+<div>	
+<a href="index.html"><img src="logo.jpg" alt="logo of PickApic" id="logo"/></a></div>
 
+<div>
 <form action="">
   <input type="text" placeholder="Search images" name="search" id="search" >
   <button name="button" value="search"><a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a></button>
 </form>
-	
+</div>
 	 
-	<div id="account">
+<div class="underline_links">
+		<div id="account">
 		<a href = "sign_in.html"> Sign in </a><br/>
 		<a href = "create_an_account.html"> Create an <br/>account </a>	
-	</div>	
-	<a href = "empty_cart.html"><img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/></a>
-	
-	
+	</div>		
+	<a href = "empty_cart.html">
+	<img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/>
+	</a>
+</div>	
+
 </header>
 
 <nav> 
-<!--Menu sticky-->
 		<ul>
-		<li><a href="" class="active">Home</a></li>
+		<li><a href="index.html">Home</a></li>
 		<li><a href="categories.html">Categories</a></li>
 		<li><a href="new.html">New</a></li>
 		<li><a href="sales.html">Sales</a></li>
-		<li><a href="report.html">Report</a></li>
+		<li id="currentPage"><a href="report.html">Report</a></li>
 		<li><a href="about_us.html">About us</a></li>
 		<li><a href="contact_us.html">Contact Us</a></li>
 	</ul>	
@@ -42,7 +47,7 @@
     <option value="" selected="selected">Select</option> 
     
     <option value="/">Home</option> 
-    <option value="categories.html">Categories</option> 
+    <option value="https://karolinasea.github.io/pick-a-pic/categories.html">Categories</option> 
     <option value="new.html">New</option> 
     <option value="sales.html">Sales</option> 
     <option value="report.html">Report</option> 
@@ -62,10 +67,10 @@
 <aside> 
 <!--newsletter (pop up +timer)-->
 </aside>
-
-<footer> 
+</div>
+<footer class="site-footer"> 
 	<ul> 
-	<li><a href = "about_us"> About us </a></li>
+	<li><a href = "about_us.html"> About us </a></li>
 	<li><a href = "careers.html"> Careers </a></li>
 	<li><a href = "policies.html"> Policies </a></li>
 	<li><a href = "contact_us.html"> Contact Us </a></li>

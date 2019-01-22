@@ -1,3 +1,19 @@
+html {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -3em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 3em; 
+}
+
 body {background-image: linear-gradient(white, white, white, white, #e6f2ff, #cce6ff, #b3d9ff, #99ccff,  #80bfff, 
 #66b3ff, #4da6ff, #3399ff, #1a8cff,  #0080ff, #0073e6, #0066cc, #0059b3, #003366); 
 background-repeat: repeat; 
@@ -50,6 +66,8 @@ button {border:none;
 
 header form input:hover  {background-color:#fafafa;}		
 	
+.underline_links a:hover {text-decoration:underline}
+
 #cart {padding-left:1em;
        height:45px;
        padding-top:0;}
@@ -85,8 +103,7 @@ nav ul li a:hover:not(.active) {color: darkblue;
   font-weight:bold;}
 
 main {margin-left: 10%;
-      padding: 1px 16px;
-      overflow: auto;}
+      padding: 1px 16px;}
 
 main ul li {display: inline;}
 
@@ -94,10 +111,8 @@ main h2 {padding-top: 10px;}
 
 main p {padding-left:38px;}
    
-footer {height: 3em;
-       left: 0;
-       bottom: 0.1em;
-       width:100%;}
+/*footer {margin-left: 10%;
+      padding: 1px 16px;}*/
 
 footer ul li {
 display:inline;

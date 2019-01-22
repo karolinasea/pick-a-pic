@@ -7,24 +7,33 @@
 </head>
 
 <body>
-
+<div class="page-wrap">
 <header> 
-<!--logo(pickapic)-->
-	<img src="" alt="logo of PickApic"/>
+
+<div>	
+<a href="index.html"><img src="logo.jpg" alt="logo of PickApic" id="logo"/></a></div>
+
+<div>
+<form action="">
+  <input type="text" placeholder="Search images" name="search" id="search" >
+  <button name="button" value="search"><a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a></button>
+</form>
+</div>
+	 
+<div class="underline_links">
+	<div id="account">
+		<a href = "sign_in.html"> Sign in </a><br/>
+		<a href = "create_an_account.html"> Create an <br/>account </a>	
+	</div>	
+	<a href = "empty_cart.html">
+	<img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/>
+	</a>
+</div>	
+
 </header>
 
-<nav> 
-<!--Menu sticky-->
-	<ul>
-		<li><a href="">Homepage</a></li>
-		<li><a href="">Categories</a></li>
-		<li><a href="">New</a></li>
-		<li><a href="">Sales</a></li>
-		<li><a href="">Report</a></li>
-		<li><a href="">About us</a></li>
-		<li><a href="">Contact Us</a></li>
-	</ul>		
-</nav>
+<!--replace menu with return link like we did at iut-->
+
 
 <main> 
 <h1>Privacy policy: </h1>
@@ -53,13 +62,13 @@ It’s a good practice to follow even if you’re not collecting any sort of per
 
 </main>
 
-
-<footer> 
-<ul> 
-	<li><a href = ""> About us </a></li>
-	<li><a href = ""> Careers </a></li>
-	<li><a href = ""> Policies </a></li>
-	<li><a href = ""> Contact Us </a></li>
+</div>
+<footer class="site-footer"> 
+	<ul> 
+	<li><a href = "about_us.html"> About us </a></li>
+	<li><a href = "careers.html"> Careers </a></li>
+	<li><a href = "policies.html"> Policies </a></li>
+	<li><a href = "contact_us.html"> Contact Us </a></li>
 	</ul>
 	<small> ©PickApic </small>
 </footer>
