@@ -42,7 +42,7 @@
 		<li><a href="sales.html">Sales</a></li>
 		<li><a href="report.html">Report</a></li>
 		<li><a href="about_us.html">About us</a></li>
-		<li id="currentPage"><a href="contact_us.html">Contact Us</a></li>
+		<li><a href="contact_us.html"><span id="currentPage">Contact Us</span></a></li>
 	</ul>	
 	
 	<select> 
@@ -60,47 +60,49 @@
 </nav>
 
 
-<main id="contactUsForm">
+<main id="contactUs">
 
-<form action="Contact us form" method = "post" >
+<form action="file:///Users/carolemerle/Downloads/pick-a-pic-master/thank_you_for_your_message.html" method = "post" id="contactUsForm">
 <fieldset>
 <legend>Contact Us</legend>
 	
-	<label>Name</label>
+	<label>Name:</label>
 	<input type="text" name="Name">
 	<br></br>
-	<label>Email</label>
+	<label>Email:</label>
 	<input type="text" name="Email">
 	<br></br>
-	<label name="msg">Your message</label>
+	<label name="msg">Your message:</label>
 	<br></br>
 	<textarea name="msg">
 	</textarea>
 	<br></br>
-	<input type="submit" name="contact_us_msg" value="Send" class="btn"/>
+	<!--<input type="submit" name="contact_us_btn" value="Send"/>-->
+	<button type="submit" value="Submit">Submit</button>
 </fieldset>
 </form>
 
-<a target="_blank" 
+<span id="petit" class="underline_links"><a target="_blank" 
 		href = "https://www.google.com/maps/place/IUT+LYON+1+-+Site+de+Villeurbanne+Doua/@45.7753148,4.8682844,14z/data=!4m8!1m2!2m1!1siut+lyon1!3m4!1s0x47f4c01bf0a44f31:0x8f808af88cda1faa!8m2!3d45.7859155!4d4.8821938">
-	<div id="petit" class="underline_links">Get directions</div>
-	</a>
-	<br/>
-	<a target="_blank" href = "https://www.google.com/maps/place/IUT+LYON+1+-+Site+de+Villeurbanne+Doua/@45.7753148,4.8682844,14z/data=!4m8!1m2!2m1!1siut+lyon1!3m4!1s0x47f4c01bf0a44f31:0x8f808af88cda1faa!8m2!3d45.7859155!4d4.8821938"><img src = "map1.png" alt = "map+pointage" > </a>
+	Get directions</a>
+	</span>
 	
+<div id="contact_info">
+	<a target="_blank" href = "https://www.google.com/maps/place/IUT+LYON+1+-+Site+de+Villeurbanne+Doua/@45.7753148,4.8682844,14z/data=!4m8!1m2!2m1!1siut+lyon1!3m4!1s0x47f4c01bf0a44f31:0x8f808af88cda1faa!8m2!3d45.7859155!4d4.8821938"><img src = "map1.PNG" alt = "map+pointage" > </a>
+	
+<div id="contact_info2">
 	<p>
-	Telephone: +3374698877
+	<span class="underline">Telephone:</span> +3374698877
 	</p>
-	<address>
-Pick-A-Pic<br>
+	<p>
+	<span class="underline">Pick-A-Pic</span><br/>
 	92 Blvd Niels Bohr<br/>
 	60100 Villeurbanne
-	</address>
+	</p>
+</div>	
+</div>
 </main>
 
-<aside> 
-<!--newsletter (pop up +timer)-->
-</aside>
 </div>
 <footer class="site-footer"> 
 	<ul> 
