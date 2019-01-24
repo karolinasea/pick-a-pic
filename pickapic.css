@@ -214,7 +214,8 @@ main form button {border-radius: 15px;
 
 #signuplink {padding: 1em;}
 
-
+.ty {text-align: center;}
+.ty p {margin: auto; padding-top: 5em;}
 
 /* @media styling*/
 
