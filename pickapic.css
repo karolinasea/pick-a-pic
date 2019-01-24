@@ -51,9 +51,9 @@ flex-wrap: wrap;}
 header form {display: flex;
 align-items: center;}
 
-header button img {height:2em;}
+header a img {height:1.5em;}
 			  
-header button {border:none;
+header img {border:none;
 		background:#fff;}
 
 #search {border-radius: 15px;
