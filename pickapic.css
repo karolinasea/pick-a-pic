@@ -1,6 +1,4 @@
-html {
-  height: 100%;
-}
+html {height: 100%;}
 
 body {background-image: linear-gradient(white, white, white, white, #e6f2ff, #cce6ff, #b3d9ff, #99ccff,  #80bfff, 
 #66b3ff, #4da6ff, #3399ff, #1a8cff,  #0080ff, #0073e6, #0066cc, #0059b3, #003366); 
@@ -194,15 +192,6 @@ main form button {border-radius: 15px;
 
 
 
-/*categories page styling*  POUR DIANA!!!!!!!!!!!!!!!!! 
-C EST CE QUE J AI ESSAYER DE FAIRE SUR LA PAGE CATEGORIES AVEC FLEXBOX MAIS J AI PAS TROP ESSAYER DONC TU PEUX TESTER D AUTRES TRUCS*/
-
-#cat-flex {display: flex;}
-
-.pic {align-content: space-around;}
-
-
-
 /*cart styling*/
 
 .cart {text-align: center;}
@@ -216,13 +205,15 @@ C EST CE QUE J AI ESSAYER DE FAIRE SUR LA PAGE CATEGORIES AVEC FLEXBOX MAIS J AI
 
 /* search page styling*/
 
-#searchpic ul li a {display: block; padding: 1em 0 1em 1em;}
+#searchpic img {height: 150px;}
 
-#searchpic ul li a img {height: 150px;}
+#searchpic {display: flex; flex-direction: column; padding-left: 20%;}
 
-#searchpic ul li {display: flex;}
+.picDescription {display: flex;}
 
-#searchpic ul li p {justify-content: space-between; padding:0;}
+
+#signuplink {padding: 1em;}
+
 
 
 /* @media styling*/
@@ -303,5 +294,12 @@ legend {font-size: 1.5em;
 fieldset {width: 80%; padding-left: 1em;;}
 
 main form textarea {padding-left: 0.5em;}
+
+#searchpic a {display: block; padding: 0.5em 0 1em 0.3em;}
+
+#searchpic a img {height: 90px;}
+
+#searchpic {padding-left: 1em;}
+
 }
 
