@@ -53,9 +53,9 @@ flex-wrap: wrap;}
 header form {display: flex;
 align-items: center;}
 
-button img {height:2em;}
+header button img {height:2em;}
 			  
-button {border:none;
+header button {border:none;
 		background:#fff;}
 
 #search {border-radius: 15px;
@@ -157,9 +157,7 @@ fieldset {width: 34em; border-radius: 15px;}
 
 #contactUsForm {padding-bottom: 3em;}
 
-#contactUs form, fieldset {text-align:center; margin:auto;}
-
-#contactUs img {height: 300px;}
+#contactUs, fieldset {text-align:center; margin:auto;}
 
 main form textarea {width: 40em;
 height: 15em;
@@ -176,7 +174,10 @@ main form button {border-radius: 15px;
 
 
 /* contact us page styling*/ 
+
 #contact_info1 a {font-size: 0.8em;}
+
+#contact_info1 img {height: 300px;}
 
 #contact_info1 a:hover {text-decoration: underline;}
 
@@ -204,7 +205,9 @@ main form button {border-radius: 15px;
 
 .cart h1, p, form {margin: auto;}
 
-.cart p, form {padding-top: 4em;}
+.cart p {padding-top: 4em;}
+
+.cart form {padding-top: 4em;}
 
 /* @media styling*/
 
@@ -269,9 +272,9 @@ footer {padding-right: 2em;}
 main form textarea {width: 15em;
 height: 15em;}
 
-#contactUs img {height: 150px;}
+#contact_info1 img {height: 150px;}
 
-#contactUs form {width: 70%; margin: auto;}
+#contactUs form {margin: auto;}
 
 legend {font-size: 1.5em;
 	display:block; width:150px; margin:auto;}
@@ -281,7 +284,7 @@ legend {font-size: 1.5em;
 
 #contact_info2 {font-size: 1em;}
 
-fieldset {width: 4em; padding-left: 1em;;}
+fieldset {width: 80%; padding-left: 1em;;}
 
 main form textarea {padding-left: 0.5em;}
 }
