@@ -211,11 +211,15 @@ main form button {border-radius: 15px;
 
 .picDescription {display: flex;}
 
-
 #signuplink {padding: 1em;}
 
 .ty {text-align: center;}
+
 .ty p {margin: auto; padding-top: 5em;}
+
+h2 {font-size: 1.5em;}
+
+.name {font-style: italic;}
 
 /* @media styling*/
 
@@ -239,7 +243,11 @@ main {margin-left: 0;}
 
 @media screen and (max-width: 550px) 
 {
-  body {text-align: center;
+  
+  body {background-image: linear-gradient(white, white, white, white, white, white, 
+  white, white, white, white, white, #e6f2ff, #cce6ff, #b3d9ff, #99ccff,  #80bfff, 
+#66b3ff, #4da6ff, #3399ff, #1a8cff,  #0080ff, #0073e6, #0066cc, #0059b3, #003366); 
+  text-align: center;
   		height: 100&%;
   		margin: auto;}
   		
@@ -262,15 +270,21 @@ main {margin-left: 0;}
   margin-right: auto;
   padding-bottom: 1em;}
   
-  header form {display: block;
+  header form {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;}
   
-  header form img {display: flex;
-				align-items: center;}
+  #search {margin: auto;}
+  
+  header form a img {padding-right:1.5em;}
+
+  header img {display: flex;
+			align-items: center;margin-left: auto;
+  margin-right: auto;}
 				
 header {border:none;}
+
 nav ul {position: absolute;}
 
 #account {font-size: 1.5em;}
@@ -303,4 +317,21 @@ main form textarea {padding-left: 0.5em;}
 #searchpic {padding-left: 1em;}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
