@@ -59,32 +59,33 @@
 
 
 
-<main>
+<main class="contactUs">
 
-<form action="/service" method = "post">
+<form action="thank_you_for_signing_up.html" method = "post" class="contactUsForm">
 
 <fieldset>
 
-<legend>Fill in the information to create an account</legend>	
+<legend>Sign Up</legend>	
 
+	<p>Fill in the information to create an account</p>
 	<label>Name</label>
-	<input type="text" name="Name">
+	<input type="text" name="Name" class="round">
 	<br></br>
 	<label>Surname</label>
-	<input type="text" name="Surname">
+	<input type="text" name="Surname" class="round">
 	<br></br>
 	<label for = "email">Email</label>
-	<input type="email" name="Email" >
+	<input type="email" name="Email" class="round">
 	<br></br>
 	<label>Password</label>	
-	<input type="password" name="Password">
+	<input type="password" name="Password" class="round">
 	<br></br>
 	<label>Confirm Password</label>
-	<input type="password" name="Confirm Password">
+	<input type="password" name="Confirm Password" class="round">
 	<br></br>
 	<label><input type="checkbox" name="newsletter" value="oui">Check this box if you want to receive emails about promotions or new items.</label>
 	<br></br>
-	<input type="submit" name="soumission" value="Create account"/>
+	<button type="submit" value="create account">Create Account</button>
 </fieldset>
 </form>
 

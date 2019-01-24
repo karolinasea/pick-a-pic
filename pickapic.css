@@ -147,16 +147,17 @@ float: right;}
 footer a:hover {text-decoration:underline;}
 
 
-/*contact us page styling*/  
-#petit {font-size: 0.8em;}
+/*forms styling*/  
 
 legend {font-size: 3em;}
 
-fieldset, #contactUsForm input[type=text]{border-radius: 15px; padding-left: 3em;}
+.round {border-radius: 15px; padding-left: 3em;}
 
-fieldset {width: 34em;}
+fieldset {width: 34em; border-radius: 15px;}
 
 #contactUsForm {padding-bottom: 3em;}
+
+#contactUs form, fieldset {text-align:center; margin:auto;}
 
 #contactUs img {height: 300px;}
 
@@ -170,24 +171,40 @@ main form button {border-radius: 15px;
   padding: 10px 22px;
   text-align: center;
   font-size: 16px;
-  border: 0.1em solid gray;} 
+  border: 0.1em solid gray;
+  margin:auto;} 
+
+
+/* contact us page styling*/ 
+#contact_info1 a {font-size: 0.8em;}
+
+#contact_info1 a:hover {text-decoration: underline;}
+
+#contact_info2 {font-size: 2em;}
 
 #contact_info {display: flex;
-			   flex-direction: row;}
+			   flex-direction: row;
+			   justify-content: space-evenly;}
 
-#contact_info2 {display: flex;
-			   flex-direction: column;
-			   font-size: 2em;}
+#contact_info2, #contact_info1 {display: flex;
+			   flex-direction: column;}
 
 .underline {text-decoration: underline;}
 
 
-/*categories styling*/
+/*categories page styling*/
 
 #cat-flex {display: flex;}
 
 .pic {align-content: space-around;}
 
+/*cart styling*/
+
+.cart {text-align: center;}
+
+.cart h1, p, form {margin: auto;}
+
+.cart p, form {padding-top: 4em;}
 
 /* @media styling*/
 
@@ -209,7 +226,7 @@ main {margin-left: 0;}
     				float: none;}
 }
 
-@media (max-width: 550px) 
+@media screen and (max-width: 550px) 
 {
   body {text-align: center;
   		height: 100&%;
@@ -263,8 +280,6 @@ legend {font-size: 1.5em;
 			   flex-direction: column;}
 
 #contact_info2 {font-size: 1em;}
-
-
 
 fieldset {width: 4em; padding-left: 1em;;}
 

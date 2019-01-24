@@ -45,8 +45,7 @@
 	
 	<select> 
     <option value="" selected="selected">Select</option> 
-    
-    <option value="/">Home</option> 
+    <option value="">Home</option> 
     <option value="https://karolinasea.github.io/pick-a-pic/categories.html">Categories</option> 
     <option value="new.html">New</option> 
     <option value="sales.html">Sales</option> 
@@ -58,13 +57,13 @@
 </nav>
 
 
-<main>
+<main class="cart">
+
 <h1>Your Cart</h1>
-	<a href="">
-	<button name="button" value="add items">
- 	Add items
- 	</button>
-	</a>
+<p>You're cart is empty, do you want to add items?</p>
+<form action="categories.html" method="post">
+	<button type="submit" value="add items">Add items</button>
+</form>
 
 </main>
 
