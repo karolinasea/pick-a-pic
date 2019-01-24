@@ -193,11 +193,15 @@ main form button {border-radius: 15px;
 .underline {text-decoration: underline;}
 
 
-/*categories page styling*/
+
+/*categories page styling*  POUR DIANA!!!!!!!!!!!!!!!!! 
+C EST CE QUE J AI ESSAYER DE FAIRE SUR LA PAGE CATEGORIES AVEC FLEXBOX MAIS J AI PAS TROP ESSAYER DONC TU PEUX TESTER D AUTRES TRUCS*/
 
 #cat-flex {display: flex;}
 
 .pic {align-content: space-around;}
+
+
 
 /*cart styling*/
 
@@ -208,6 +212,18 @@ main form button {border-radius: 15px;
 .cart p {padding-top: 4em;}
 
 .cart form {padding-top: 4em;}
+
+
+/* search page styling*/
+
+#searchpic ul li a {display: block; padding: 1em 0 1em 1em;}
+
+#searchpic ul li a img {height: 150px;}
+
+#searchpic ul li {display: flex;}
+
+#searchpic ul li p {justify-content: space-between; padding:0;}
+
 
 /* @media styling*/
 
