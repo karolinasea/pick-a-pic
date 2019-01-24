@@ -4,7 +4,7 @@
 	<title>PickApic Cart</title>
 	<meta charset = "utf-8">
 	<link rel="stylesheet" href="pickapic.css">
-	<meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 <div>
 <form action="search_results.html">
   <input type="text" placeholder="Search images" name="search" id="search" >
-  <button name="button" value="search"><a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a></button>
+  <a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a>
 </form>
 </div>
 	 
@@ -27,7 +27,7 @@
 		<a href = "create_an_account.html"> Create an <br/>account </a>	
 	</div>	
 	<a href = "empty_cart.html">
-	<img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/>
+	<img src = "cart.png" alt = "Cart image link to items in cart" id="cart"/>
 	</a>
 </div>	
 
@@ -48,30 +48,39 @@
     <option value="" selected="selected">Select</option> 
     
     <option value="/">Home</option> 
-    <option value="https://karolinasea.github.io/pick-a-pic/categories.html">Categories</option> 
-    <option value="new.html">New</option> 
-    <option value="sales.html">Sales</option> 
-    <option value="report.html">Report</option> 
-    <option value="about_us.html">About us</option> 
-    <option value="contact_us.html">Contact Us</option> 
+    <option value="">Categories</option> 
+    <option value="">New</option> 
+    <option value="">Sales</option> 
+    <option value="">Report</option> 
+    <option value="">About us</option> 
+    <option value="">Contact Us</option> 
   </select> 
   
 </nav>
 
-<main class="cart">
+<main>
 
 <h1>Your Cart</h1>
-<p>You have 1 items in your cart</p> 
-<p>item_name</p>
-<img src="" alt=""/>
+
+<div id="cartitem">
+
+<p>You have 1 items in your cart:</p> 
+
+<p>Cute Bunnies</p>
+
+<img src="cute32.jpg" alt="cute animal"/>
+
 <p>Do you want to add items?</p>
+
 <form action="categories.html" method="post">
-	<button type="submit" value="add items"><a href="categories.html">Add items</a></button>
-</form>
-<form action="thank_you_for_your_order.html" method="post">
-	<button type="submit" value="Submit"><a href="thank_you_for_your_order">Proceed to payment</a></button>
+	<input type="submit" value="Add items">
 </form>
 
+<form action="thank_you_for_your_order.html" method="post">
+	<input type="submit" value="Proceed to payment">
+</form>
+
+</div>
 </main>
 
 </div>

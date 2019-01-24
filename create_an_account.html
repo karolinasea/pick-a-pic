@@ -4,7 +4,7 @@
 	<title>PickApic Create an account</title>
 	<meta charset = "utf-8">
 	<link rel="stylesheet" href="pickapic.css">
-	<meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 <div>
 <form action="search_results.html">
   <input type="text" placeholder="Search images" name="search" id="search" >
-  <button name="button" value="search"><a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a></button>
+  <a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a>
 </form>
 </div>
 	 
@@ -27,7 +27,7 @@
 		<a href = "create_an_account.html"> Create an <br/>account </a>	
 	</div>	
 	<a href = "empty_cart.html">
-	<img src = "https://carwad.net/sites/default/files/cart-png-transparent-images-144015-7104665.png" alt = "Cart image link to items in cart" id="cart"/>
+	<img src = "cart.png" alt = "Cart image link to items in cart" id="cart"/>
 	</a>
 </div>	
 
@@ -44,16 +44,15 @@
 		<li><a href="contact_us.html">Contact Us</a></li>
 	</ul>	
 	
-	<select> 
+<select> 
     <option value="" selected="selected">Select</option> 
-    
     <option value="/">Home</option> 
-    <option value="https://karolinasea.github.io/pick-a-pic/categories.html">Categories</option> 
-    <option value="new.html">New</option> 
-    <option value="sales.html">Sales</option> 
-    <option value="report.html">Report</option> 
-    <option value="about_us.html">About us</option> 
-    <option value="contact_us.html">Contact Us</option> 
+    <option value="">Categories</option> 
+    <option value="">New</option> 
+    <option value="">Sales</option> 
+    <option value="">Report</option> 
+    <option value="">About us</option> 
+    <option value="">Contact Us</option> 
   </select> 
   
 </nav>
@@ -71,22 +70,22 @@
 	<p>Fill in the information to create an account</p>
 	<label>Name</label>
 	<input type="text" name="Name" class="round">
-	<br></br>
+	<br/>
 	<label>Surname</label>
 	<input type="text" name="Surname" class="round">
-	<br></br>
-	<label for = "email">Email</label>
+	<br/>
+	<label>Email</label>
 	<input type="email" name="Email" class="round">
-	<br></br>
+<br/>
 	<label>Password</label>	
 	<input type="password" name="Password" class="round">
-	<br></br>
+<br/>
 	<label>Confirm Password</label>
 	<input type="password" name="Confirm Password" class="round">
-	<br></br>
+<br/>
 	<label><input type="checkbox" name="newsletter" value="oui">Check this box if you want to receive emails about promotions or new items.</label>
-	<br></br>
-	<button type="submit" value="create account"><a href="thank_you_for_signing_up.html">Create Account</a></button>
+<br/>
+	<input type="submit" value="Create Account">
 </fieldset>
 </form>
 
