@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 	<title>PickApic Sign in</title>
 	<meta charset = "utf-8">
@@ -23,7 +23,7 @@
 	 
 <div class="underline_links">
 	<div id="account">
-		<!--<a href = "sign_in.html"> Sign in </a><br/>-->
+		<a href = "sign_in.html"> Sign in </a><br/>
 		<a href = "create_an_account.html"> Create an <br/>account </a>	
 	</div>	
 	<a href = "empty_cart.html">
@@ -62,12 +62,17 @@
 <form action="index2_signed_in.html" method = "post" class="contactUsForm">
 <fieldset>
 <legend>Sign in</legend>
-	<label>Email:<input name="account_email" class="round"></label>
-	<br></br>
-	<label>Password:<input type="account_password" name="Password" class="round"></label>	
-	<br></br>
-	<button type="submit" value="sign in"><a href="index2_signed_in.html">Sign in</a></button>
+<div class="centerForm">
+	<label>Email:</label><br/>
+	<input name="account_email" class="round">
+	<br/><br/>
+	<label>Password:</label><br/>
+	<input type="password" name="Password" class="round">
+	<p></p>
+	<input type="submit" value="Sign in" class="submit">
+	<br/><br/>
 	<p id="signuplink" class="underline_links">Don't have an account yet? <a href="create_an_account.html">Sign up</a></p>
+</div>
 </fieldset>
 </form>
 
