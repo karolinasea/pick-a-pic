@@ -15,9 +15,9 @@
 <a href="index.html"><img src="logo.jpg" alt="logo of PickApic" id="logo"/></a></div>
 
 <div>
-<form action="search_results.html">
+<form action="search_results.html" method="GET">
   <input type="text" placeholder="Search images" name="search" id="search" >
-  <a href="search_results.html"><img src="mg.png" alt="magnifying glass"/></a>
+  <input type="image" id="mg" alt="search" src="mg.png">
 </form>
 </div>
 	 
@@ -71,11 +71,11 @@
 
 <p>Do you want to add items?</p>
 
-<form action="categories.html" method="post">
+<form action="categories.html" method="POST">
 	<input type="submit" value="Add items">
 </form>
 
-<form action="thank_you_for_your_order.html" method="post">
+<form action="thank_you_for_your_order.html" method="POST">
 	<input type="submit" value="Proceed to payment">
 </form>
 
