@@ -54,10 +54,7 @@ flex-wrap: wrap;}
 header form {display: flex;
 align-items: center;}
 
-header a img {height:1.6em;}
-			  
-header im {border:none;
-		background:#fff;}
+#mg {height: 2.5em;}
 
 #search {border-radius: 15px;
 		 width: 20em;;
