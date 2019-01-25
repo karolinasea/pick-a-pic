@@ -247,13 +247,7 @@ form p {padding: 1em;}
 
 /* search page styling*/
 
-#searchpic ul li a {display: block; padding: 1em 0 1em 1em;}
-
-#searchpic ul li a img {height: 150px;}
-
-#searchpic ul li {display: flex;}
-
-#searchpic ul li p {justify-content: space-between; padding:0;}
+.searchpic {display: flex; justify-content: flex-start;}
 
 
 /*****/
@@ -267,8 +261,6 @@ form p {padding: 1em;}
 #careers ul li a:hover {text-decoration: underline;}
 
 #careers ul li {padding-bottom: 0.3em;}
-
-.picDescription {display: flex;}
 
 #signuplink {padding: 1em;}
 
@@ -396,11 +388,7 @@ fieldset {width: 80%; padding-left: 1em;;}
 
 main form textarea {padding-left: 0.5em;}
 
-#searchpic a {display: block; padding: 0.5em 0 1em 0.3em;}
-
-#searchpic a img {height: 90px;}
-
-#searchpic {padding-left: 1em;}
+.searchpic {display: flex; justify-content: flex-start; flex-direction: column;}
 
 #cartitem img {height: 150px; width: 200px; padding: 2em;}
 
