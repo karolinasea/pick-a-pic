@@ -198,7 +198,7 @@ form p {padding: 1em;}
 
 /*categorie page styling*/
 
-#cat-flex
+.cat-flex
 {
 	display: flex;
 	flex-flow: row wrap; 
