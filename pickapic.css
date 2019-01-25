@@ -1,4 +1,6 @@
-html {height: 100%;}
+html {
+  height: 100%;
+}
 
 body {background-image: linear-gradient(white, white, white, white, #e6f2ff, #cce6ff, #b3d9ff, #99ccff,  #80bfff, 
 #66b3ff, #4da6ff, #3399ff, #1a8cff,  #0080ff, #0073e6, #0066cc, #0059b3, #003366); 
@@ -15,9 +17,7 @@ border-color : #0431B4;
 padding:2px;
 padding-left:20px;}
 
-h2 {font-size: 1.5em;}
-
-img {height:100px;} 
+img {height:120px;} 
 
 ul {list-style-type: none;}
 
@@ -28,8 +28,6 @@ a {text-decoration:none;
   display: block;
   margin-left: auto;
   margin-right: auto;}  
-  
-.center img {padding: 1em;}
 
 #nav {display: flex; flex-direction: column;}
 
@@ -55,9 +53,9 @@ flex-wrap: wrap;}
 header form {display: flex;
 align-items: center;}
 
-header a img {height:1.5em;}
+header button img {height:2em;}
 			  
-header img {border:none;
+header button {border:none;
 		background:#fff;}
 
 #search {border-radius: 15px;
@@ -117,6 +115,7 @@ main h2 {padding-top: 10px;}
 
 main p {padding-left:38px;}
 
+
 .sale {font-weight:bold;
 		color: red;}
 		
@@ -173,8 +172,6 @@ main form button {border-radius: 15px;
   border: 0.1em solid gray;
   margin:auto;} 
 
-form p {padding: 1em;}
-
 
 /* contact us page styling*/ 
 
@@ -197,6 +194,49 @@ form p {padding: 1em;}
 
 
 
+/*categories page styling*  POUR DIANA!!!!!!!!!!!!!!!!! 
+C EST CE QUE J AI ESSAYER DE FAIRE SUR LA PAGE CATEGORIES AVEC FLEXBOX MAIS J AI PAS TROP ESSAYER DONC TU PEUX TESTER D AUTRES TRUCS*/
+
+/*modifications diana*/
+
+#cat-flex
+{
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-around; 
+}
+
+#sales_flex
+{
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-around; 	
+	z-index:1; 
+}
+
+.sales_text
+{
+	
+	position:absolute;
+	text-align:center; 
+	color:red; 
+	font-weight:bold; 
+	font-size: 12.5px; 
+	background-color:#ffff4d; 		
+	border-radius: 50%;
+	padding-top:2.5px;
+	padding-bottom:2.5px;
+	padding-left:5px; 
+	padding-right:5px; 
+	
+	
+}
+
+
+.pic {align-content: space-around;}
+
+
+
 /*cart styling*/
 
 .cart {text-align: center;}
@@ -210,52 +250,13 @@ form p {padding: 1em;}
 
 /* search page styling*/
 
-#searchpic img {height: 150px;}
+#searchpic ul li a {display: block; padding: 1em 0 1em 1em;}
 
-#searchpic {display: flex; flex-direction: column; padding-left: 20%;}
+#searchpic ul li a img {height: 150px;}
 
+#searchpic ul li {display: flex;}
 
-/*****/
-
-#careers img {padding-left: 3em; padding-right: 1em; float: left; height: 200px;}
-
-#it {font-style: italic; text-align: left;}
-
-#careers ul li {display: block;}
-
-#careers ul li a:hover {text-decoration: underline;}
-
-#careers ul li {padding-bottom: 0.3em;}
-
-.picDescription {display: flex;}
-
-#signuplink {padding: 1em;}
-
-.ty {text-align: center;}
-
-.ty p {margin: auto; padding-top: 5em;}
-
-.name {font-style: italic;}
-
-
-/* cart item1 pg styling*/
-
-#cartitem {text-align: center; margin: auto; padding: 2em;}
-
-#cartitem img {height: 200px; padding: 2em;}
-
-#cartitem p {padding: 0.5em;}
-
-#cartitem form {padding: 0.5em;}
-
-form input[type=submit] {border-radius: 15px;
-  border: none;
-  padding: 10px 22px;
-  text-align: center;
-  font-size: 16px;
-  border: 0.1em solid gray;
-  margin:auto;}
-
+#searchpic ul li p {justify-content: space-between; padding:0;}
 
 
 /* @media styling*/
@@ -280,12 +281,8 @@ main {margin-left: 0;}
 
 @media screen and (max-width: 550px) 
 {
-  
-  body {background-image: linear-gradient(white, white, white, white, white, white, 
-  white, white, white, white, white, #e6f2ff, #cce6ff, #b3d9ff, #99ccff,  #80bfff, 
-#66b3ff, #4da6ff, #3399ff, #1a8cff,  #0080ff, #0073e6, #0066cc, #0059b3, #003366); 
-  text-align: center;
-  		height: 100%;
+  body {text-align: center;
+  		height: 100&%;
   		margin: auto;}
   		
   nav ul {display: none;}
@@ -307,21 +304,15 @@ main {margin-left: 0;}
   margin-right: auto;
   padding-bottom: 1em;}
   
-  header form {
+  header form {display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;}
   
-  #search {margin: auto;}
-  
-  header form a img {padding-right:1.5em;}
-
-  header img {display: flex;
-			align-items: center;margin-left: auto;
-  margin-right: auto;}
+  header form img {display: flex;
+				align-items: center;}
 				
 header {border:none;}
-
 nav ul {position: absolute;}
 
 #account {font-size: 1.5em;}
@@ -346,29 +337,5 @@ legend {font-size: 1.5em;
 fieldset {width: 80%; padding-left: 1em;;}
 
 main form textarea {padding-left: 0.5em;}
-
-#searchpic a {display: block; padding: 0.5em 0 1em 0.3em;}
-
-#searchpic a img {height: 90px;}
-
-#searchpic {padding-left: 1em;}
-
-#cartitem img {height: 150px; padding: 2em;}
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
