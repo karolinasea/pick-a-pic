@@ -27,7 +27,8 @@ a {text-decoration:none;
 .center {text-align:center;
   display: block;
   margin-left: auto;
-  margin-right: auto;}  
+  margin-right: auto;
+  padding: 0.4em;}  
 
 #nav {display: flex; flex-direction: column;}
 
@@ -282,13 +283,13 @@ form p {padding: 1em;}
 
 /* cart item1 pg styling*/
 
-#cartitem {display: flex; justify-content: center; flex-direction: column;}
+.cartitem {display: flex; justify-content: center; flex-direction: column;}
 
-#cartitem img {width: 350px; height: 220px; padding: 2em; align-content: center;}
+.cartitem img {width: 350px; height: 220px; padding: 2em; align-content: center;}
 
-#cartitem p {padding: 0.5em;}
+.cartitem p {padding: 0.5em;}
 
-#cartitem form {padding: 0.5em;}
+.cartitem form {padding: 0.5em;}
 
 form input[type=submit] {border-radius: 15px;
   border: none;
