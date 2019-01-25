@@ -33,9 +33,10 @@ a {text-decoration:none;
 
 #nav1 {font-size: 1.2em; text-decoration: underline;}
   
-#nav2 {color: white; font-size: 1.3em; text-decoration: underline; font-weight: bold;}
+#nav2 {color: white; font-size: 1.3em; 
+text-decoration: underline; font-weight: bold; padding: 1em;}
 
-.navi {margin-left: auto;
+.navi {display: flex; justify-content: flex-end;
 		padding: 1em;}
   
 /* header styling */
@@ -53,9 +54,9 @@ flex-wrap: wrap;}
 header form {display: flex;
 align-items: center;}
 
-header button img {height:2em;}
+header a img {height:1.6em;}
 			  
-header button {border:none;
+header im {border:none;
 		background:#fff;}
 
 #search {border-radius: 15px;
@@ -111,7 +112,7 @@ main {margin-left: 10%;
 
 main ul li {display: inline;}
 
-main h2 {padding-top: 10px;}
+main h2 {padding-top: 10px; font-size: 1.5em;}
 
 main p {padding-left:38px;}
 
@@ -148,6 +149,11 @@ footer a:hover {text-decoration:underline;}
 
 
 /*forms styling*/  
+.centerForm, textarea {display: flex; flex-direction: column;}
+
+main form textarea {height: 15em; text-align: left;}
+
+input:hover {background-color: #D1D1DA;}
 
 legend {font-size: 3em;}
 
@@ -155,14 +161,9 @@ legend {font-size: 3em;}
 
 fieldset {width: 34em; border-radius: 15px;}
 
-#contactUsForm {padding-bottom: 3em;}
+.contactUsForm {padding-bottom: 3em;}
 
-#contactUs, fieldset {text-align:center; margin:auto;}
-
-main form textarea {width: 40em;
-height: 15em;
-border-radius: 15px;
-padding-left: 3em;}
+.contactUs, fieldset {margin:auto;}
   
 main form button {border-radius: 15px;
   border: none;
@@ -171,6 +172,8 @@ main form button {border-radius: 15px;
   font-size: 16px;
   border: 0.1em solid gray;
   margin:auto;} 
+
+form p {padding: 1em;}
 
 
 /* contact us page styling*/ 
@@ -193,11 +196,7 @@ main form button {border-radius: 15px;
 .underline {text-decoration: underline;}
 
 
-
-/*categories page styling*  POUR DIANA!!!!!!!!!!!!!!!!! 
-C EST CE QUE J AI ESSAYER DE FAIRE SUR LA PAGE CATEGORIES AVEC FLEXBOX MAIS J AI PAS TROP ESSAYER DONC TU PEUX TESTER D AUTRES TRUCS*/
-
-/*modifications diana*/
+/*categorie page styling*/
 
 #cat-flex
 {
@@ -259,6 +258,51 @@ C EST CE QUE J AI ESSAYER DE FAIRE SUR LA PAGE CATEGORIES AVEC FLEXBOX MAIS J AI
 #searchpic ul li p {justify-content: space-between; padding:0;}
 
 
+/*****/
+
+#careers img {padding-left: 3em; padding-right: 1em; float: left; height: 200px;}
+
+#it {font-style: italic; text-align: left; padding-right: 15em;}
+
+#careers ul li {display: block;}
+
+#careers ul li a:hover {text-decoration: underline;}
+
+#careers ul li {padding-bottom: 0.3em;}
+
+.picDescription {display: flex;}
+
+#signuplink {padding: 1em;}
+
+.ty {text-align: center;}
+
+.ty p {margin: auto; padding-top: 5em;}
+
+.ty a:hover {text-decoration: underline;}
+
+.name {font-style: italic;}
+
+
+/* cart item1 pg styling*/
+
+#cartitem {display: flex; justify-content: center; flex-direction: column;}
+
+#cartitem img {width: 350px; height: 220px; padding: 2em; align-content: center;}
+
+#cartitem p {padding: 0.5em;}
+
+#cartitem form {padding: 0.5em;}
+
+form input[type=submit] {border-radius: 15px;
+  border: none;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+  border: 0.1em solid gray;
+  margin:auto;}
+
+
+
 /* @media styling*/
 
 @media screen and (max-width: 900px) 
@@ -281,8 +325,12 @@ main {margin-left: 0;}
 
 @media screen and (max-width: 550px) 
 {
-  body {text-align: center;
-  		height: 100&%;
+  
+  body {background-image: linear-gradient(white, white, white, white, white, white, 
+  white, white, white, white, white, white, white, white, white, white, white, white, #e6f2ff, #cce6ff, #b3d9ff, #99ccff,  #80bfff, 
+#66b3ff, #4da6ff, #3399ff, #1a8cff,  #0080ff, #0073e6, #0066cc, #0059b3, #003366); 
+  text-align: center;
+  		height: 100%;
   		margin: auto;}
   		
   nav ul {display: none;}
@@ -304,15 +352,21 @@ main {margin-left: 0;}
   margin-right: auto;
   padding-bottom: 1em;}
   
-  header form {display: block;
+  header form {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;}
   
-  header form img {display: flex;
-				align-items: center;}
+  #search {margin: auto;}
+  
+  header form a img {padding-right:1.5em;}
+
+  header img {display: flex;
+			align-items: center;margin-left: auto;
+  margin-right: auto;}
 				
 header {border:none;}
+
 nav ul {position: absolute;}
 
 #account {font-size: 1.5em;}
@@ -326,6 +380,12 @@ height: 15em;}
 
 #contactUs form {margin: auto;}
 
+.centerForm input {padding:0.5em;}
+
+.centerForm label {padding:0.5em;}
+
+.submit {padding:1em;}
+
 legend {font-size: 1.5em;
 	display:block; width:150px; margin:auto;}
 	
@@ -337,5 +397,17 @@ legend {font-size: 1.5em;
 fieldset {width: 80%; padding-left: 1em;;}
 
 main form textarea {padding-left: 0.5em;}
+
+#searchpic a {display: block; padding: 0.5em 0 1em 0.3em;}
+
+#searchpic a img {height: 90px;}
+
+#searchpic {padding-left: 1em;}
+
+#cartitem img {height: 150px; width: 200px; padding: 2em;}
+
+#it {font-style: italic; text-align: left; padding-right: 0.5em;}
+
 }
+
 
