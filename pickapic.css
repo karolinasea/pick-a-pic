@@ -194,14 +194,7 @@ form p {padding: 1em;}
 .underline {text-decoration: underline;}
 
 
-/*categorie page styling*/
-
-.cat-flex
-{
-	display: flex;
-	flex-flow: row wrap; 
-	justify-content: space-around; 
-}
+/*sales page styling*/
 
 #sales_flex
 {
@@ -248,8 +241,33 @@ form p {padding: 1em;}
 
 .searchpic {display: flex; justify-content: flex-start;}
 
+/*categories page styling*/
 
-/*****/
+.cat2 {font-weight: bold;
+		text-decoration: underline;
+		font-size: 1.6em;}
+
+.cat1 input[type="checkbox"]:checked + .hide {
+display: flex;
+ flex-flow: row wrap; 
+ justify-content: space-around;   
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.cat-hide {
+  position: absolute;
+  left: -999em;
+}
+
+.hide {display: none; padding-top:1em;}
+
+.cat-list1 {text-decoration: underline; color: #0431B4; text-align: center;}
+
+#txt {padding: 1.4em;}
+
+
+/*career page styling*/
 
 #careers img {padding-left: 3em; padding-right: 1em; float: left; height: 200px;}
 
@@ -427,5 +445,9 @@ main form textarea {padding-left: 0.5em;}
 #mg {height: 2em;}
 
 }
+
+
+
+
 
 
